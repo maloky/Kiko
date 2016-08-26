@@ -1,16 +1,18 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
+# # # # # # # # # #
+#   M A L O K Y   #
+# # # # # # # # # #
 
 # Basic
-name:               "Kiko"
-description:        "a clean, lightweight and minimalistic blog theme for jekyll"
+name: Maloky             
+title: the medium rare programmer
+description: > # this means to ignore newlines until "baseurl:"
+  Some rambling about Python, javscript with a bit of agile
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//kiko.gfjaru.com"
-author:             "gfjaru"
+url:                "//maloky.com"
+author:             "maloky"
 twitter:
-  username:         "gfjaru"
+  username:         "maloky"
 #facebook:
 #  app_id:           1234
 #    publisher:      1234
@@ -26,7 +28,7 @@ markdown:           kramdown
 # Navigation
 nav:
   - name:           "About"
-    href:           "//kiko.gfjaru.com/about"
+    href:           "/about"
   - name:           "Download"
     href:           "//github.com/gfjaru/Kiko/releases"
 

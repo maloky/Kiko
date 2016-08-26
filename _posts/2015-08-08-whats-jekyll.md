@@ -2,7 +2,7 @@
 title: Whats Jekyll?
 ---
 
-<p class="lead"> <a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.</p>
+<p class="post__description"><a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.</p>
 
 From [the project's readme](https://github.com/jekyll/jekyll/blob/master/README.markdown):
 
