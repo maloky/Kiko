@@ -5,6 +5,14 @@
 
 // variables
 
+$grey-color : #515151; 
+$base-font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$spacing-unit: 30px;
+
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
