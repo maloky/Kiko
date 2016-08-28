@@ -8,7 +8,7 @@
     font-weight: 300;
 
     a {
-      color: #333;
+      color: $grey-color-dark;
 
       &:hover,
       &:focus {
@@ -29,7 +29,7 @@
     text-transform: uppercase;
 
     a {
-      color: #333;
+      color: $grey-color-dark;
 
       &:hover,
       &:focus {
@@ -42,7 +42,7 @@
     margin-bottom: 2rem;
 
     a {
-      color: #aaa;
+      color: $grey-color-light;
       font-weight: 300;
       text-transform: lowercase;
       -webkit-transition: all .2s ease;
@@ -51,7 +51,7 @@
 
       &:hover,
       &:focus {
-        color: #333;
+        color: $grey-color-dark;
         text-decoration: none;
       }
 
@@ -99,7 +99,7 @@
     > h2.post-list__link {
       margin-bottom: .25rem; 
       a {
-        color: #333;
+        color: $grey-color-dark;
 
         &:hover,
         &:focus {
@@ -117,7 +117,7 @@
 
 .projects-list {
   a {
-    color: #333;
+    color: $grey-color-dark;
   }
 }
 
@@ -127,10 +127,15 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    text-align: center; 
 }
 
 .social-media-list {
     list-style: none;
     margin-left: 0;
-    display: flex;
+
+    > li {
+      display: inline-block;
+      padding: 0 10px;
+    }
 }

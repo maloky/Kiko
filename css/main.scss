@@ -5,13 +5,20 @@
 
 // variables
 
-$grey-color : #515151; 
 $base-font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$code-font-family: Menlo, Monaco, "Courier New", monospace; 
+
+$base-font-size:   18px;
+$base-font-weight: 300;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.6;
 
 $spacing-unit: 30px;
 
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color : #515151; 
+$brand-color: #2196f3; // material design Blue
+$grey-color-light: #aaa;
+$grey-color-dark:  #333;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

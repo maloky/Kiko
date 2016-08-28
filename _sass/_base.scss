@@ -11,10 +11,7 @@ body {
 }
 
 html {
-  font-family: $base-font-family;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1.6;
+font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
 
   @media (min-width: 38em) {
     font-size: 20px;
@@ -22,14 +19,14 @@ html {
 }
 
 body {
-  color: #515151;
+  color: $grey-color;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 a {
-  color: #268bd2;
+  color: $brand-color;
   text-decoration: none;
 
   &:hover,
@@ -43,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: 600;
   line-height: 1.1;
-  color: #333;
+  color: $grey-color-dark;
   letter-spacing: -.025rem;
 }
 
@@ -130,7 +127,7 @@ hr {
 }
 
 strong {
-  color: #333;
+  color: $grey-color-dark;
   font-weight: 600;
 }
 
@@ -159,7 +156,7 @@ blockquote {
 
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: $code-font-family;
 }
 
 code {
@@ -194,7 +191,7 @@ pre code {
 
 
 .gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  font-family: $code-font-family !important;
 }
 
 .gist .markdown-body {
@@ -244,18 +241,22 @@ tbody tr:nth-child(odd) th {
 }
 
 .wrapper {
-    width: 50rem;
-    max-width: 960px;
-    margin: 0 auto;
-
-  // max-width: 38rem;
-  // padding: 2rem 1.5rem;
-  // margin-left:  auto;
-  // margin-right: auto;
+  max-width: 38rem;
+  padding: 2rem 1.5rem;
+  margin-left:  auto;
+  margin-right: auto;
 
   @media (min-width: 38rem){
     padding: 5rem 1rem;
   }
+
+  @media (min-width: 38rem){
+    padding: 5rem 1rem;
+  }
+}
+
+.small {
+  font-size: $small-font-size;
 }
 
 /**
@@ -264,8 +265,8 @@ tbody tr:nth-child(odd) th {
 .icon {
 
     > svg {
-        width: 16px;
-        height: 16px;
+        width: 25px;
+        height: 25px;
         vertical-align: middle;
 
         path {
