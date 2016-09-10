@@ -5,17 +5,19 @@
 
 // variables
 
-$base-font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$code-font-family: Menlo, Monaco, "Courier New", monospace; 
+$base-font-family: 'Merriweather', serif;
+$secondary-font-family: "Open Sans", sans-serif;
+$code-font-family: Menlo, Monaco, "Courier New", monospace;
 
-$base-font-size:   18px;
-$base-font-weight: 300;
+$base-font-size:   1rem;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.6;
+$base-line-height: 2em;
+$base-letter-spacing: 0.01rem;
+
 
 $spacing-unit: 30px;
 
-$grey-color : #515151; 
+$grey-color : #515151;
 $brand-color: #2196f3; // material design Blue
 $grey-color-light: #aaa;
 $grey-color-dark:  #333;

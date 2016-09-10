@@ -11,10 +11,13 @@ body {
 }
 
 html {
-font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font-family: $base-font-family;
+  letter-spacing: $base-letter-spacing;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
 
   @media (min-width: 38em) {
-    font-size: 20px;
+    font-size: 1.1rem;
   }
 }
 
@@ -42,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   color: $grey-color-dark;
   letter-spacing: -.025rem;
+  font-family: $secondary-font-family;
 }
 
 h1 {
@@ -242,16 +246,12 @@ tbody tr:nth-child(odd) th {
 
 .wrapper {
   max-width: 38rem;
-  padding: 2rem 1.5rem;
+  padding: 2rem 1.5rem 0 1.5rem;
   margin-left:  auto;
   margin-right: auto;
 
   @media (min-width: 38rem){
-    padding: 5rem 1rem;
-  }
-
-  @media (min-width: 38rem){
-    padding: 5rem 1rem;
+    padding: 5rem 1rem 0 1rem;
   }
 }
 
