@@ -3,20 +3,21 @@ layout: default
 ---
 
 <div class="content list">
-  
+
   {% if site.posts.size == 0 %}
-  
+
     <h2>No post found</h2>
-  
+
   {% else %}
 
     <ul class="post-list">
     {% for post in site.posts %}
       <li>
+        <span class="post-list__meta">{{ post.date | date: "%-d %b %Y" }}</span>
         <h2 class="post-list__link">
           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <span class="post-list__meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p>{{ post.description }}</p>
       </li>
     {% endfor %}
   </ul>
