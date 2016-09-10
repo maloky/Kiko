@@ -1,5 +1,6 @@
 ---
 title: Whats Jekyll?
+description: An introductory view to create a simple static site with jekyll and deploy to github pages.
 ---
 
 <p class="post__description"><a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.</p>
