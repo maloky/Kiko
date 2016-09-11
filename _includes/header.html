@@ -1,13 +1,14 @@
 <header class="site-head">
 
-  <div class="site-head__title">
-  <a href="{{ site.baseurl }}/">{{ site.name }}</a>
-  </div>
-
-  <nav class="site-head__nav">
-    {% for nav in site.nav %}
-        <a href="{{ nav.href }}">{{ nav.name }}</a>
-    {% endfor %}
-  </nav>
+    <nav class="site-head__nav">
+        <span class="site-head__title">
+            <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+        </span>
+        <ul class="site-head__links">
+            {% for nav in site.nav %}
+                <li><a href="{{ nav.href }}">{{ nav.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
 
 </header>
