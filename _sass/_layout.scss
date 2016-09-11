@@ -98,7 +98,7 @@
     margin-bottom: 1rem;
 
     > h2.post-list__link {
-      margin-bottom: .25rem;
+      // margin-bottom: .25rem;
       a {
         color: $grey-color-dark;
 
@@ -112,6 +112,7 @@
     > span.post-list__meta {
       font-size: .75rem;
       text-transform: uppercase;
+      color: rgba(0,0,0,0.4);
     }
   }
 }
